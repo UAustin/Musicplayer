@@ -6,6 +6,9 @@ body{
 	background: url(../img/background.png);
 }
 
+.button-hide {
+		display: none;
+}
 .container{
   text-align: center;
 	width:300px;
@@ -20,17 +23,13 @@ body{
   text-align: center;
 }
 
-.play-button{
-	width:50px;
-	height:30px;
-  border-radius:10px;
+.pre-button, .next-button,
+.play-button,.pause-button {
+	width:40px;
+	height:40px;
+  /*border-radius:10px;*/
 }
 
-.pause-button{
-	width:50px;
-	height:30px;
-  border-radius:10px;
-}
 
 .music-list {
   text-align: center;

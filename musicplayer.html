@@ -11,16 +11,18 @@
       <div class="audio-image">
         <img class="audio-block" src="img/image.png">
       </div>
-        <audio id='id-audio-player' controls="controls" data-index='0'>
+        <audio class='audio-player' controls="controls" data-index='0'>
           <source src="musics/那些花儿.mp3">
         </audio >
-      <div class="music-time">
+      <!-- <div class="music-time">
         当前时间:<span id=id-span-currentTime>00:00</span>
         总时间:<span id=id-span-totalTime>00:00</span>
-      </div>
+      </div> -->
       <div class="music-button">
-        <button class='play-button' id=id-play-button>Play</button>
-        <button class='pause-button' id=id-pause-button>Pause</button>
+        <img class='pre-button' id="id-pre-button" src="img/pre.png">
+        <img class='play-button button-hide' id="id-play-button" src="img/play.png">
+        <img class='pause-button' id="id-pause-button" src="img/pause.png">
+        <img class='next-button' id="id-next-button" src="img/next.png">
       </div>
       <div class="music-list">
         <div class="audio-circle" data-path="musics/1.mp3">那些花儿.mp3</div>
