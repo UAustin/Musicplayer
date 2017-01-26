@@ -43,7 +43,7 @@ var autoPlay = function() {
         // log('click')
         playAnimation()
         var getMusic = event.target.innerHTML
-            audio.src = 'musics/' + getMusic
+            audio.src = 'musics/' + String(getMusic)
             audio.autoplay = true
             bindEvent(audio, 'canplay', function(){
                 // log('开始播放')
