@@ -5,7 +5,7 @@ var selector = '.audio-circle'
 var preButton = e('#id-pre-button')
 var nextButton = e('#id-next-button')
 var autoPlay = function() {
-    var musics = [ 'musics/那些花儿.mp3', 'musics/给我一首歌的时间.mp3', 'musics/极乐净土.mp3']
+    var musics = ['musics/那些花儿.mp3', 'musics/给我一首歌的时间.mp3', 'musics/极乐净土.mp3']
     bindEvent(preButton, 'click', function(){
           playAnimation()
           var index = parseInt(audio.dataset.index)
